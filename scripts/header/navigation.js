@@ -1,3 +1,9 @@
+import { getItem, setItem } from '../common/storage.js';
+import { renderWeek } from '../calendar/calendar.js';
+import { renderRedLine } from '../calendar/redLine.js';
+import { renderHeader } from '../calendar/header.js';
+import { getStartOfWeek, getDisplayedMonth } from '../common/time.utils.js';
+
 const navElem = document.querySelector('.navigation');
 const displayedMonthElem = document.querySelector('.navigation__displayed-month');
 

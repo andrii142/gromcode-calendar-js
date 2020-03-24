@@ -1,3 +1,6 @@
+import { getItem } from '../common/storage.js';
+import shmoment from '../common/shmoment.js';
+
 let interval;
 
 export function renderRedLine() {
