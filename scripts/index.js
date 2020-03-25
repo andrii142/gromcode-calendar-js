@@ -1,6 +1,5 @@
 import { renderTimescale } from './calendar/timescale.js';
 import { renderWeek } from './calendar/calendar.js';
-import { renderRedLine } from './calendar/redLine.js';
 import { renderHeader } from './calendar/header.js';
 import { initNavigation } from './header/navigation.js';
 import { setItem } from './common/storage.js';
@@ -15,5 +14,4 @@ document.addEventListener('DOMContentLoaded', () => {
     renderHeader();
     initNavigation();
     initEventForm();
-    renderRedLine();
 });

@@ -64,7 +64,3 @@ export const getDisplayedMonth = date => {
         ? `${monthsNames[startMonth]} - ${monthsNames[endMonth]} ${startYear}`
         : `${monthsNames[startMonth]} ${startYear} - ${monthsNames[endMonth]} ${endYear}`;
 };
-
-export const createNumbersArray = (from, to) => {
-    // ф-ция должна генерировать массив целых чисел в указанном промежутке
-};
