@@ -11,7 +11,7 @@ function renderCurrentMonth() {
     // вставить в .navigation__displayed-month
 }
 
-const onChangeWeek = e => {
+const onChangeWeek = event => {
     // при переключении недели обновите displayedWeekStart в storage
     // и перерисуйте все необходимые элементы страницы (renderHeader, renderWeek, renderCurrentMonth)
 };
